@@ -1,0 +1,264 @@
+body {
+    background-color: #f7f2ef;
+    font-family:  arial;
+  }
+
+#logo{
+    color: chocolate;
+    text-align: center;
+    font-size: 300%;
+    
+    
+}
+abbr { 
+    border-bottom: none;
+    cursor: inherit; /* generate a different mouse cursor: */
+    text-decoration: none;
+}
+#imgggg{
+    object-fit: contain;
+    
+    
+    
+}
+
+#topbar {
+    text-align: center;
+    background-image: url("https://thumbs.dreamstime.com/b/art-colour-bokeh-light-background-abstract-art-design-background-light-texture-abstract-light-bokeh-backgrounds-art-colour-117685055.jpg");
+    overflow: hidden;
+}
+#topnav {
+    
+    overflow: hidden;
+    background-image: url(https://i0.wp.com/zeeoii.com/wp-content/uploads/2020/07/Abstract-4K-Backgrounds-Wallpaper-3840X2160-32.jpg?fit=1024%2C576&ssl=1);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    margin-top:0px;
+  }
+  
+ 
+  #topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+ 
+  #topnav a:hover {
+    background-color: #d481c9;
+    color: black;
+  }
+  
+  
+  #topnav a.active {
+    background-color:#94598c;
+    color: white;
+  }
+  figure {
+    border: 2px;
+    padding: 4px;
+    margin: auto;
+    width: 70%;
+    height: auto;
+  }
+h1, h2 {
+    text-align: center;
+    font-style: italic;
+    page-break-before: always;
+}
+#TableCaptionForTopSelling{
+    font-weight: 900;
+    color: chocolate;
+    font-size: 300%;
+    margin-bottom: 5px;
+}
+#AdviceOnChoosingSmartphoneCaption{
+    color: chocolate;
+    font-size: 300%;
+    margin-bottom: 5px;
+    font-style: italic;
+}
+
+#sidebar {
+    background-color:#e0ddd8;
+    padding: 2%;
+    margin-right: 1%;
+    margin-top: auto;
+    float: right;
+}
+#sidebar p {
+    color: #000000;
+    font-size: 130%;
+    font-weight: bold;
+    font-variant: Helvetica;
+    text-align: center;
+  }
+
+.sideforms {
+    text-align: left;
+    margin: 5%;
+    float:left;
+}
+
+label {
+    font-size: 140%;
+    font-variant: small-caps;
+    color: black;
+    font-weight: 400;
+}
+#ourrecommendationslist {
+    list-style-position: inside;
+    text-align: left;
+
+}
+#aboutus {
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    margin: 1 em 0;
+    float: left;
+    text-align: left;
+}
+#Products {
+    border-collapse: collapse;
+    caption-side: top;
+    width: 40%;
+    margin-left: 1%;
+    margin-right: auto;
+    border-style: ridge;
+    border-color: cadetblue;
+  }
+#Products th, td {
+    text-align: left;
+    border: 1px solid black;
+    vertical-align: top;
+    padding: 8px;
+}
+#Products tr:nth-child(even) {
+    background-color: #EEEEEE
+  }
+
+.buyphone {
+    margin-left: 1.5%;
+    width: 40%;
+}
+#Products .figcaption {
+    font-size: 10px;
+    text-align: center;
+  }
+  .seb{
+    padding-bottom: 10%;
+    margin: 5%;
+  }
+
+  .seb:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+  }
+  .tableformbutton {
+    background-color: #FFFFFF;
+    color: #000000;
+    border-radius: 8px;
+  }
+  
+  .tableformbutton:hover {
+    color: #FFFFFF;
+    transition-duration: 0.5s;
+  }
+  
+  #tableformsubmit {
+    border: 3px solid violet;
+  }
+  
+  #tableformsubmit:hover {
+    background-color: violet;
+  }
+  
+  #tableformreset {
+    border: 3px solid yellow;
+  }
+  
+  #tableformreset:hover {
+    background-color: yellow;
+  }
+
+#pagebottom {
+    background-color: #BBBBBB;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  #reviewstable {
+      width: 100%;
+  }
+  
+  #advice td {
+    text-align: left;
+    vertical-align: middle;
+    float: center;
+  }
+
+footer {
+    background-color: #CCCCCC;
+    font-size: 75%;
+    font-family: arial;
+    font-style: normal;
+    text-align: center;
+    width: 100%;
+    page-break-after: always;
+    overflow: hidden;
+  }
+
+  #footertable {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #footertable td, th {
+    border-color: #DDDDDD;
+    border-width: 1px;
+    border-style: solid;
+    border-spacing: 2px;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  #footertable a {
+    text-decoration: none;
+    margin-bottom: 1%;
+  }
+
+  #footertable a:link, li a:visited, a:hover, li a:focus {
+    color: #000000;
+  }
+
+  #footertable a:active {
+    color: #ad2222fa;
+  }
+
+  #footerlinks li {
+    list-style-type: none;
+    list-style-image: none;
+    text-align: center;
+    display: inline;
+  }
+
+  #footerlinks li a {
+    text-decoration: none;
+    margin-left: 3px;
+    margin-right: 3px;
+    float: center;
+  }
+
+  #footerlinks li a:link, li a:visited, a:hover, li a:focus {
+    color: #666666;
+  }
+
+  #footerlinks li a:active {
+    color: #AAAAAA;
+  }
